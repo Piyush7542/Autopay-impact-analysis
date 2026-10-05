@@ -1,0 +1,2642 @@
+[
+  {
+    "property_id": "PROP_1592",
+    "property_name": "Riverside Plaza 1592",
+    "country": "United States",
+    "region": "Texas",
+    "property_type": "Boutique",
+    "total_rooms": 13,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 0,
+        "total_transactions": 18,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 16,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 0,
+        "total_transactions": 14,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 12,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 1,
+        "total_transactions": 18,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 16,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 1,
+        "total_transactions": 16,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 14,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 0,
+        "total_transactions": 15,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 13,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 3
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 0,
+        "total_transactions": 11,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 0,
+        "total_transactions": 6,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 5,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 0,
+        "total_transactions": 12,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 10,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 0,
+        "total_transactions": 13,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 11,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 1,
+        "total_transactions": 7,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 6,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 1,
+        "total_transactions": 16,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 14,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 1,
+        "total_transactions": 12,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 10,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 6
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0944",
+    "property_name": "Riverside Retreat 944",
+    "country": "Japan",
+    "region": "Tokyo",
+    "property_type": "Bed & Breakfast",
+    "total_rooms": 9,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 0,
+        "total_transactions": 3,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 2,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 0,
+        "total_transactions": 9,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 8,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 0,
+        "total_transactions": 10,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 0,
+        "total_transactions": 10,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 0,
+        "total_transactions": 7,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 6,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 0,
+        "total_transactions": 7,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 6,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 1,
+        "total_transactions": 10,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 1,
+        "total_transactions": 11,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 0,
+        "total_transactions": 5,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 4,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 0,
+        "total_transactions": 11,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 0,
+        "total_transactions": 6,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 5,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 3
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 1,
+        "total_transactions": 7,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 6,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 2
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0870",
+    "property_name": "Urban Retreat 870",
+    "country": "Germany",
+    "region": "North Rhine-Westphalia",
+    "property_type": "Resort",
+    "total_rooms": 66,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 6,
+        "total_transactions": 69,
+        "pre_checkins_completed": 11,
+        "pre_checkins_eligible": 62,
+        "unpaid_stays": 12,
+        "is_active": true,
+        "manual_interventions": 25
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 5,
+        "total_transactions": 82,
+        "pre_checkins_completed": 16,
+        "pre_checkins_eligible": 73,
+        "unpaid_stays": 12,
+        "is_active": false,
+        "manual_interventions": 14
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 4,
+        "total_transactions": 65,
+        "pre_checkins_completed": 8,
+        "pre_checkins_eligible": 58,
+        "unpaid_stays": 8,
+        "is_active": false,
+        "manual_interventions": 17
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 2,
+        "total_transactions": 64,
+        "pre_checkins_completed": 6,
+        "pre_checkins_eligible": 57,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 15
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 2,
+        "total_transactions": 64,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 57,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 18
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 2,
+        "total_transactions": 69,
+        "pre_checkins_completed": 12,
+        "pre_checkins_eligible": 62,
+        "unpaid_stays": 17,
+        "is_active": false,
+        "manual_interventions": 16
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 4,
+        "total_transactions": 76,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 68,
+        "unpaid_stays": 13,
+        "is_active": false,
+        "manual_interventions": 22
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 2,
+        "total_transactions": 67,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 60,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 8
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 2,
+        "total_transactions": 65,
+        "pre_checkins_completed": 9,
+        "pre_checkins_eligible": 58,
+        "unpaid_stays": 8,
+        "is_active": false,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 5,
+        "total_transactions": 97,
+        "pre_checkins_completed": 8,
+        "pre_checkins_eligible": 87,
+        "unpaid_stays": 16,
+        "is_active": false,
+        "manual_interventions": 14
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 5,
+        "total_transactions": 73,
+        "pre_checkins_completed": 7,
+        "pre_checkins_eligible": 65,
+        "unpaid_stays": 9,
+        "is_active": false,
+        "manual_interventions": 15
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 4,
+        "total_transactions": 74,
+        "pre_checkins_completed": 5,
+        "pre_checkins_eligible": 66,
+        "unpaid_stays": 7,
+        "is_active": false,
+        "manual_interventions": 19
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0163",
+    "property_name": "Park Plaza 163",
+    "country": "UAE",
+    "region": "Abu Dhabi",
+    "property_type": "Hotel",
+    "total_rooms": 282,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 10,
+        "total_transactions": 296,
+        "pre_checkins_completed": 21,
+        "pre_checkins_eligible": 266,
+        "unpaid_stays": 47,
+        "is_active": false,
+        "manual_interventions": 45
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 4,
+        "total_transactions": 275,
+        "pre_checkins_completed": 40,
+        "pre_checkins_eligible": 247,
+        "unpaid_stays": 37,
+        "is_active": false,
+        "manual_interventions": 79
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 14,
+        "total_transactions": 256,
+        "pre_checkins_completed": 20,
+        "pre_checkins_eligible": 230,
+        "unpaid_stays": 41,
+        "is_active": false,
+        "manual_interventions": 80
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 12,
+        "total_transactions": 235,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 211,
+        "unpaid_stays": 24,
+        "is_active": false,
+        "manual_interventions": 54
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 7,
+        "total_transactions": 238,
+        "pre_checkins_completed": 14,
+        "pre_checkins_eligible": 214,
+        "unpaid_stays": 31,
+        "is_active": false,
+        "manual_interventions": 54
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 9,
+        "total_transactions": 227,
+        "pre_checkins_completed": 14,
+        "pre_checkins_eligible": 204,
+        "unpaid_stays": 31,
+        "is_active": false,
+        "manual_interventions": 82
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 8,
+        "total_transactions": 241,
+        "pre_checkins_completed": 23,
+        "pre_checkins_eligible": 216,
+        "unpaid_stays": 43,
+        "is_active": false,
+        "manual_interventions": 84
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 8,
+        "total_transactions": 276,
+        "pre_checkins_completed": 19,
+        "pre_checkins_eligible": 248,
+        "unpaid_stays": 48,
+        "is_active": false,
+        "manual_interventions": 63
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 8,
+        "total_transactions": 248,
+        "pre_checkins_completed": 20,
+        "pre_checkins_eligible": 223,
+        "unpaid_stays": 36,
+        "is_active": false,
+        "manual_interventions": 81
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 11,
+        "total_transactions": 335,
+        "pre_checkins_completed": 25,
+        "pre_checkins_eligible": 301,
+        "unpaid_stays": 37,
+        "is_active": false,
+        "manual_interventions": 93
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 13,
+        "total_transactions": 350,
+        "pre_checkins_completed": 34,
+        "pre_checkins_eligible": 315,
+        "unpaid_stays": 40,
+        "is_active": false,
+        "manual_interventions": 83
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 10,
+        "total_transactions": 321,
+        "pre_checkins_completed": 19,
+        "pre_checkins_eligible": 288,
+        "unpaid_stays": 51,
+        "is_active": false,
+        "manual_interventions": 81
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_1272",
+    "property_name": "Park Lodge 1272",
+    "country": "Thailand",
+    "region": "Bangkok",
+    "property_type": "Hotel",
+    "total_rooms": 124,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 2,
+        "total_transactions": 94,
+        "pre_checkins_completed": 7,
+        "pre_checkins_eligible": 84,
+        "unpaid_stays": 11,
+        "is_active": false,
+        "manual_interventions": 29
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 1,
+        "total_transactions": 93,
+        "pre_checkins_completed": 13,
+        "pre_checkins_eligible": 83,
+        "unpaid_stays": 27,
+        "is_active": false,
+        "manual_interventions": 41
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 5,
+        "total_transactions": 103,
+        "pre_checkins_completed": 9,
+        "pre_checkins_eligible": 92,
+        "unpaid_stays": 13,
+        "is_active": false,
+        "manual_interventions": 41
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 2,
+        "total_transactions": 110,
+        "pre_checkins_completed": 12,
+        "pre_checkins_eligible": 99,
+        "unpaid_stays": 16,
+        "is_active": false,
+        "manual_interventions": 30
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 3,
+        "total_transactions": 93,
+        "pre_checkins_completed": 8,
+        "pre_checkins_eligible": 83,
+        "unpaid_stays": 8,
+        "is_active": true,
+        "manual_interventions": 28
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 4,
+        "total_transactions": 80,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 72,
+        "unpaid_stays": 18,
+        "is_active": false,
+        "manual_interventions": 31
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 6,
+        "total_transactions": 94,
+        "pre_checkins_completed": 6,
+        "pre_checkins_eligible": 84,
+        "unpaid_stays": 16,
+        "is_active": false,
+        "manual_interventions": 31
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 5,
+        "total_transactions": 97,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 87,
+        "unpaid_stays": 24,
+        "is_active": false,
+        "manual_interventions": 20
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 0,
+        "total_transactions": 98,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 88,
+        "unpaid_stays": 19,
+        "is_active": false,
+        "manual_interventions": 28
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 6,
+        "total_transactions": 146,
+        "pre_checkins_completed": 8,
+        "pre_checkins_eligible": 131,
+        "unpaid_stays": 36,
+        "is_active": false,
+        "manual_interventions": 51
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 3,
+        "total_transactions": 119,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 107,
+        "unpaid_stays": 23,
+        "is_active": false,
+        "manual_interventions": 41
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 4,
+        "total_transactions": 123,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 110,
+        "unpaid_stays": 15,
+        "is_active": false,
+        "manual_interventions": 40
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0071",
+    "property_name": "Park Inn 71",
+    "country": "Spain",
+    "region": "Madrid",
+    "property_type": "Hotel",
+    "total_rooms": 228,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 2,
+        "total_transactions": 189,
+        "pre_checkins_completed": 14,
+        "pre_checkins_eligible": 170,
+        "unpaid_stays": 37,
+        "is_active": false,
+        "manual_interventions": 88
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 7,
+        "total_transactions": 184,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 165,
+        "unpaid_stays": 40,
+        "is_active": false,
+        "manual_interventions": 78
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 6,
+        "total_transactions": 185,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 166,
+        "unpaid_stays": 31,
+        "is_active": false,
+        "manual_interventions": 57
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 5,
+        "total_transactions": 124,
+        "pre_checkins_completed": 7,
+        "pre_checkins_eligible": 111,
+        "unpaid_stays": 15,
+        "is_active": false,
+        "manual_interventions": 30
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 11,
+        "total_transactions": 176,
+        "pre_checkins_completed": 15,
+        "pre_checkins_eligible": 158,
+        "unpaid_stays": 31,
+        "is_active": false,
+        "manual_interventions": 73
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 3,
+        "total_transactions": 146,
+        "pre_checkins_completed": 13,
+        "pre_checkins_eligible": 131,
+        "unpaid_stays": 33,
+        "is_active": false,
+        "manual_interventions": 46
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 6,
+        "total_transactions": 171,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 153,
+        "unpaid_stays": 26,
+        "is_active": false,
+        "manual_interventions": 49
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 3,
+        "total_transactions": 185,
+        "pre_checkins_completed": 18,
+        "pre_checkins_eligible": 166,
+        "unpaid_stays": 25,
+        "is_active": false,
+        "manual_interventions": 102
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 10,
+        "total_transactions": 184,
+        "pre_checkins_completed": 27,
+        "pre_checkins_eligible": 165,
+        "unpaid_stays": 47,
+        "is_active": false,
+        "manual_interventions": 72
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 4,
+        "total_transactions": 218,
+        "pre_checkins_completed": 6,
+        "pre_checkins_eligible": 196,
+        "unpaid_stays": 28,
+        "is_active": false,
+        "manual_interventions": 80
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 6,
+        "total_transactions": 220,
+        "pre_checkins_completed": 18,
+        "pre_checkins_eligible": 198,
+        "unpaid_stays": 34,
+        "is_active": false,
+        "manual_interventions": 79
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 5,
+        "total_transactions": 192,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 172,
+        "unpaid_stays": 21,
+        "is_active": false,
+        "manual_interventions": 93
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0248",
+    "property_name": "Coastal Court 248",
+    "country": "Singapore",
+    "region": "North",
+    "property_type": "Resort",
+    "total_rooms": 189,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 3,
+        "total_transactions": 130,
+        "pre_checkins_completed": 15,
+        "pre_checkins_eligible": 117,
+        "unpaid_stays": 9,
+        "is_active": false,
+        "manual_interventions": 37
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 3,
+        "total_transactions": 147,
+        "pre_checkins_completed": 8,
+        "pre_checkins_eligible": 132,
+        "unpaid_stays": 28,
+        "is_active": false,
+        "manual_interventions": 36
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 6,
+        "total_transactions": 169,
+        "pre_checkins_completed": 17,
+        "pre_checkins_eligible": 152,
+        "unpaid_stays": 27,
+        "is_active": false,
+        "manual_interventions": 42
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 8,
+        "total_transactions": 174,
+        "pre_checkins_completed": 15,
+        "pre_checkins_eligible": 156,
+        "unpaid_stays": 8,
+        "is_active": false,
+        "manual_interventions": 47
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 3,
+        "total_transactions": 197,
+        "pre_checkins_completed": 20,
+        "pre_checkins_eligible": 177,
+        "unpaid_stays": 55,
+        "is_active": false,
+        "manual_interventions": 53
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 4,
+        "total_transactions": 169,
+        "pre_checkins_completed": 19,
+        "pre_checkins_eligible": 152,
+        "unpaid_stays": 26,
+        "is_active": false,
+        "manual_interventions": 67
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 10,
+        "total_transactions": 162,
+        "pre_checkins_completed": 7,
+        "pre_checkins_eligible": 145,
+        "unpaid_stays": 13,
+        "is_active": false,
+        "manual_interventions": 41
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 9,
+        "total_transactions": 189,
+        "pre_checkins_completed": 21,
+        "pre_checkins_eligible": 170,
+        "unpaid_stays": 27,
+        "is_active": false,
+        "manual_interventions": 44
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 4,
+        "total_transactions": 196,
+        "pre_checkins_completed": 14,
+        "pre_checkins_eligible": 176,
+        "unpaid_stays": 20,
+        "is_active": false,
+        "manual_interventions": 78
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 5,
+        "total_transactions": 197,
+        "pre_checkins_completed": 18,
+        "pre_checkins_eligible": 177,
+        "unpaid_stays": 28,
+        "is_active": false,
+        "manual_interventions": 66
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 6,
+        "total_transactions": 199,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 179,
+        "unpaid_stays": 21,
+        "is_active": false,
+        "manual_interventions": 49
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 11,
+        "total_transactions": 225,
+        "pre_checkins_completed": 17,
+        "pre_checkins_eligible": 202,
+        "unpaid_stays": 35,
+        "is_active": false,
+        "manual_interventions": 57
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0323",
+    "property_name": "Grand Manor 323",
+    "country": "Germany",
+    "region": "Bavaria",
+    "property_type": "Apartment",
+    "total_rooms": 25,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 1,
+        "total_transactions": 24,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 21,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 2,
+        "total_transactions": 22,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 19,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 1,
+        "total_transactions": 33,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 29,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 7
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 2,
+        "total_transactions": 18,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 16,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 7
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 1,
+        "total_transactions": 29,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 26,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 0,
+        "total_transactions": 25,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 22,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 0,
+        "total_transactions": 22,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 19,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 1,
+        "total_transactions": 29,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 26,
+        "unpaid_stays": 9,
+        "is_active": false,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 0,
+        "total_transactions": 18,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 16,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 2,
+        "total_transactions": 26,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 23,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 1,
+        "total_transactions": 32,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 28,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 0,
+        "total_transactions": 22,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 19,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 5
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_1660",
+    "property_name": "Urban Manor 1660",
+    "country": "Australia",
+    "region": "WA",
+    "property_type": "Apartment",
+    "total_rooms": 10,
+    "cohort": "Enabled_Inactive",
+    "autopay_enabled_date": "2024-11-12",
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 1,
+        "total_transactions": 10,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 1,
+        "total_transactions": 4,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 3,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 0,
+        "total_transactions": 10,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 0,
+        "total_transactions": 9,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 8,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 0,
+        "total_transactions": 5,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 4,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 1,
+        "total_transactions": 6,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 5,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 0,
+        "total_transactions": 6,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 5,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 1,
+        "total_transactions": 7,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 6,
+        "unpaid_stays": 2,
+        "is_active": true,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 1,
+        "total_transactions": 3,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 2,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 0,
+        "total_transactions": 10,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 0,
+        "total_transactions": 6,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 5,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 0,
+        "total_transactions": 9,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 8,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 4
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_1005",
+    "property_name": "Riverside Tower 1005",
+    "country": "Australia",
+    "region": "ACT",
+    "property_type": "Motel",
+    "total_rooms": 31,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 1,
+        "total_transactions": 18,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 16,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 1,
+        "total_transactions": 20,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 18,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 0,
+        "total_transactions": 16,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 14,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 0,
+        "total_transactions": 30,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 27,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 15
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 1,
+        "total_transactions": 14,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 12,
+        "unpaid_stays": 1,
+        "is_active": true,
+        "manual_interventions": 3
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 0,
+        "total_transactions": 22,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 19,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 0,
+        "total_transactions": 17,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 15,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 0,
+        "total_transactions": 13,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 11,
+        "unpaid_stays": 4,
+        "is_active": true,
+        "manual_interventions": 8
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 1,
+        "total_transactions": 25,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 22,
+        "unpaid_stays": 4,
+        "is_active": true,
+        "manual_interventions": 8
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 0,
+        "total_transactions": 22,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 19,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 10
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 2,
+        "total_transactions": 31,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 27,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 15
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 0,
+        "total_transactions": 21,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 18,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 9
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_1663",
+    "property_name": "Sunset Resort 1663",
+    "country": "Malaysia",
+    "region": "Kuala Lumpur",
+    "property_type": "Boutique",
+    "total_rooms": 16,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 0,
+        "total_transactions": 18,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 16,
+        "unpaid_stays": 7,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 1,
+        "total_transactions": 9,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 8,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 1,
+        "total_transactions": 15,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 13,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 1,
+        "total_transactions": 9,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 8,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 0,
+        "total_transactions": 13,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 11,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 2,
+        "total_transactions": 18,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 16,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 11
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 1,
+        "total_transactions": 15,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 13,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 0,
+        "total_transactions": 9,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 8,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 0,
+        "total_transactions": 10,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 1,
+        "total_transactions": 11,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 3
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 0,
+        "total_transactions": 12,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 10,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 2,
+        "total_transactions": 16,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 14,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 9
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0910",
+    "property_name": "Mountain Resort 910",
+    "country": "Spain",
+    "region": "Valencia",
+    "property_type": "Resort",
+    "total_rooms": 176,
+    "cohort": "Enabled_Inactive",
+    "autopay_enabled_date": "2024-01-09",
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 2,
+        "total_transactions": 108,
+        "pre_checkins_completed": 15,
+        "pre_checkins_eligible": 97,
+        "unpaid_stays": 17,
+        "is_active": false,
+        "manual_interventions": 40
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 5,
+        "total_transactions": 124,
+        "pre_checkins_completed": 6,
+        "pre_checkins_eligible": 111,
+        "unpaid_stays": 12,
+        "is_active": false,
+        "manual_interventions": 28
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 8,
+        "total_transactions": 121,
+        "pre_checkins_completed": 18,
+        "pre_checkins_eligible": 108,
+        "unpaid_stays": 23,
+        "is_active": true,
+        "manual_interventions": 27
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 5,
+        "total_transactions": 132,
+        "pre_checkins_completed": 13,
+        "pre_checkins_eligible": 118,
+        "unpaid_stays": 15,
+        "is_active": false,
+        "manual_interventions": 46
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 5,
+        "total_transactions": 89,
+        "pre_checkins_completed": 17,
+        "pre_checkins_eligible": 80,
+        "unpaid_stays": 22,
+        "is_active": true,
+        "manual_interventions": 34
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 8,
+        "total_transactions": 86,
+        "pre_checkins_completed": 8,
+        "pre_checkins_eligible": 77,
+        "unpaid_stays": 11,
+        "is_active": false,
+        "manual_interventions": 17
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 3,
+        "total_transactions": 89,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 80,
+        "unpaid_stays": 15,
+        "is_active": true,
+        "manual_interventions": 38
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 7,
+        "total_transactions": 120,
+        "pre_checkins_completed": 12,
+        "pre_checkins_eligible": 108,
+        "unpaid_stays": 14,
+        "is_active": false,
+        "manual_interventions": 54
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 7,
+        "total_transactions": 137,
+        "pre_checkins_completed": 21,
+        "pre_checkins_eligible": 123,
+        "unpaid_stays": 19,
+        "is_active": false,
+        "manual_interventions": 40
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 11,
+        "total_transactions": 166,
+        "pre_checkins_completed": 17,
+        "pre_checkins_eligible": 149,
+        "unpaid_stays": 17,
+        "is_active": false,
+        "manual_interventions": 54
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 6,
+        "total_transactions": 163,
+        "pre_checkins_completed": 32,
+        "pre_checkins_eligible": 146,
+        "unpaid_stays": 21,
+        "is_active": false,
+        "manual_interventions": 40
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 5,
+        "total_transactions": 111,
+        "pre_checkins_completed": 7,
+        "pre_checkins_eligible": 99,
+        "unpaid_stays": 12,
+        "is_active": false,
+        "manual_interventions": 23
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_1226",
+    "property_name": "Urban Resort 1226",
+    "country": "Australia",
+    "region": "QLD",
+    "property_type": "Resort",
+    "total_rooms": 33,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 0,
+        "total_transactions": 24,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 21,
+        "unpaid_stays": 2,
+        "is_active": true,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 1,
+        "total_transactions": 30,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 27,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 2,
+        "total_transactions": 26,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 23,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 7
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 0,
+        "total_transactions": 28,
+        "pre_checkins_completed": 5,
+        "pre_checkins_eligible": 25,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 8
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 3,
+        "total_transactions": 29,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 26,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 8
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 1,
+        "total_transactions": 29,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 26,
+        "unpaid_stays": 7,
+        "is_active": false,
+        "manual_interventions": 9
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 1,
+        "total_transactions": 18,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 16,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 10
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 0,
+        "total_transactions": 35,
+        "pre_checkins_completed": 5,
+        "pre_checkins_eligible": 31,
+        "unpaid_stays": 9,
+        "is_active": false,
+        "manual_interventions": 9
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 1,
+        "total_transactions": 35,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 31,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 0,
+        "total_transactions": 26,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 23,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 0,
+        "total_transactions": 25,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 22,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 11
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 2,
+        "total_transactions": 20,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 18,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 7
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0902",
+    "property_name": "Valley Suites 902",
+    "country": "Singapore",
+    "region": "North-East",
+    "property_type": "Hotel",
+    "total_rooms": 276,
+    "cohort": "Adopter",
+    "autopay_enabled_date": "2024-12-22",
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 76,
+        "total_transactions": 345,
+        "pre_checkins_completed": 294,
+        "pre_checkins_eligible": 310,
+        "unpaid_stays": 7,
+        "is_active": false,
+        "manual_interventions": 9
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 81,
+        "total_transactions": 248,
+        "pre_checkins_completed": 214,
+        "pre_checkins_eligible": 223,
+        "unpaid_stays": 1,
+        "is_active": true,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 72,
+        "total_transactions": 333,
+        "pre_checkins_completed": 282,
+        "pre_checkins_eligible": 299,
+        "unpaid_stays": 6,
+        "is_active": true,
+        "manual_interventions": 17
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 69,
+        "total_transactions": 323,
+        "pre_checkins_completed": 278,
+        "pre_checkins_eligible": 290,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 11
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 74,
+        "total_transactions": 288,
+        "pre_checkins_completed": 234,
+        "pre_checkins_eligible": 259,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 9
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 85,
+        "total_transactions": 333,
+        "pre_checkins_completed": 238,
+        "pre_checkins_eligible": 299,
+        "unpaid_stays": 5,
+        "is_active": true,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 59,
+        "total_transactions": 302,
+        "pre_checkins_completed": 256,
+        "pre_checkins_eligible": 271,
+        "unpaid_stays": 8,
+        "is_active": true,
+        "manual_interventions": 8
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 110,
+        "total_transactions": 312,
+        "pre_checkins_completed": 244,
+        "pre_checkins_eligible": 280,
+        "unpaid_stays": 10,
+        "is_active": true,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 96,
+        "total_transactions": 379,
+        "pre_checkins_completed": 324,
+        "pre_checkins_eligible": 341,
+        "unpaid_stays": 16,
+        "is_active": false,
+        "manual_interventions": 27
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 78,
+        "total_transactions": 344,
+        "pre_checkins_completed": 292,
+        "pre_checkins_eligible": 309,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 8
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 66,
+        "total_transactions": 337,
+        "pre_checkins_completed": 294,
+        "pre_checkins_eligible": 303,
+        "unpaid_stays": 3,
+        "is_active": true,
+        "manual_interventions": 11
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 79,
+        "total_transactions": 342,
+        "pre_checkins_completed": 231,
+        "pre_checkins_eligible": 307,
+        "unpaid_stays": 12,
+        "is_active": true,
+        "manual_interventions": 13
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0592",
+    "property_name": "Sunset Suites 592",
+    "country": "United Kingdom",
+    "region": "England",
+    "property_type": "Bed & Breakfast",
+    "total_rooms": 6,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 0,
+        "total_transactions": 1,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 1,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 0,
+        "total_transactions": 3,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 2,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 0,
+        "total_transactions": 2,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 1,
+        "unpaid_stays": 1,
+        "is_active": true,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 0,
+        "total_transactions": 3,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 2,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 1,
+        "total_transactions": 6,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 5,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 0,
+        "total_transactions": 4,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 3,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 0,
+        "total_transactions": 6,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 5,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 3
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 0,
+        "total_transactions": 7,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 6,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 5
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 0,
+        "total_transactions": 4,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 3,
+        "unpaid_stays": 1,
+        "is_active": true,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 0,
+        "total_transactions": 7,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 6,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 0,
+        "total_transactions": 8,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 7,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 0,
+        "total_transactions": 2,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 1,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 1
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_1274",
+    "property_name": "Sunset Hotel 1274",
+    "country": "UAE",
+    "region": "Dubai",
+    "property_type": "Boutique",
+    "total_rooms": 26,
+    "cohort": "Adopter",
+    "autopay_enabled_date": "2024-04-16",
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 1,
+        "total_transactions": 17,
+        "pre_checkins_completed": 9,
+        "pre_checkins_eligible": 15,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 1,
+        "total_transactions": 17,
+        "pre_checkins_completed": 6,
+        "pre_checkins_eligible": 15,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 0,
+        "total_transactions": 18,
+        "pre_checkins_completed": 14,
+        "pre_checkins_eligible": 16,
+        "unpaid_stays": 1,
+        "is_active": true,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 1,
+        "total_transactions": 14,
+        "pre_checkins_completed": 12,
+        "pre_checkins_eligible": 12,
+        "unpaid_stays": 2,
+        "is_active": true,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 2,
+        "total_transactions": 15,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 13,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 2,
+        "total_transactions": 13,
+        "pre_checkins_completed": 8,
+        "pre_checkins_eligible": 11,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 5,
+        "total_transactions": 25,
+        "pre_checkins_completed": 18,
+        "pre_checkins_eligible": 22,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 4
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 4,
+        "total_transactions": 16,
+        "pre_checkins_completed": 9,
+        "pre_checkins_eligible": 14,
+        "unpaid_stays": 1,
+        "is_active": true,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 2,
+        "total_transactions": 17,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 15,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 3,
+        "total_transactions": 34,
+        "pre_checkins_completed": 22,
+        "pre_checkins_eligible": 30,
+        "unpaid_stays": 2,
+        "is_active": false,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 0,
+        "total_transactions": 13,
+        "pre_checkins_completed": 6,
+        "pre_checkins_eligible": 11,
+        "unpaid_stays": 1,
+        "is_active": true,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 1,
+        "total_transactions": 25,
+        "pre_checkins_completed": 16,
+        "pre_checkins_eligible": 22,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 4
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0555",
+    "property_name": "Mountain Lodge 555",
+    "country": "Spain",
+    "region": "Andalusia",
+    "property_type": "Hotel",
+    "total_rooms": 61,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 1,
+        "total_transactions": 44,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 39,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 17
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 0,
+        "total_transactions": 32,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 28,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 11
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 0,
+        "total_transactions": 69,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 62,
+        "unpaid_stays": 17,
+        "is_active": false,
+        "manual_interventions": 23
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 1,
+        "total_transactions": 40,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 36,
+        "unpaid_stays": 9,
+        "is_active": false,
+        "manual_interventions": 15
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 2,
+        "total_transactions": 37,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 33,
+        "unpaid_stays": 9,
+        "is_active": false,
+        "manual_interventions": 16
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 2,
+        "total_transactions": 50,
+        "pre_checkins_completed": 7,
+        "pre_checkins_eligible": 45,
+        "unpaid_stays": 9,
+        "is_active": false,
+        "manual_interventions": 21
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 2,
+        "total_transactions": 53,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 47,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 17
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 0,
+        "total_transactions": 46,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 41,
+        "unpaid_stays": 11,
+        "is_active": false,
+        "manual_interventions": 14
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 0,
+        "total_transactions": 50,
+        "pre_checkins_completed": 9,
+        "pre_checkins_eligible": 45,
+        "unpaid_stays": 12,
+        "is_active": true,
+        "manual_interventions": 11
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 4,
+        "total_transactions": 62,
+        "pre_checkins_completed": 7,
+        "pre_checkins_eligible": 55,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 29
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 0,
+        "total_transactions": 68,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 61,
+        "unpaid_stays": 11,
+        "is_active": false,
+        "manual_interventions": 21
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 5,
+        "total_transactions": 58,
+        "pre_checkins_completed": 5,
+        "pre_checkins_eligible": 52,
+        "unpaid_stays": 9,
+        "is_active": false,
+        "manual_interventions": 14
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_1062",
+    "property_name": "Grand Hotel 1062",
+    "country": "United States",
+    "region": "Florida",
+    "property_type": "Motel",
+    "total_rooms": 55,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 0,
+        "total_transactions": 39,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 35,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 11
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 1,
+        "total_transactions": 57,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 51,
+        "unpaid_stays": 9,
+        "is_active": false,
+        "manual_interventions": 11
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 0,
+        "total_transactions": 41,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 36,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 14
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 2,
+        "total_transactions": 38,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 34,
+        "unpaid_stays": 7,
+        "is_active": false,
+        "manual_interventions": 20
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 1,
+        "total_transactions": 56,
+        "pre_checkins_completed": 7,
+        "pre_checkins_eligible": 50,
+        "unpaid_stays": 7,
+        "is_active": false,
+        "manual_interventions": 11
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 1,
+        "total_transactions": 54,
+        "pre_checkins_completed": 11,
+        "pre_checkins_eligible": 48,
+        "unpaid_stays": 6,
+        "is_active": true,
+        "manual_interventions": 24
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 1,
+        "total_transactions": 57,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 51,
+        "unpaid_stays": 15,
+        "is_active": true,
+        "manual_interventions": 22
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 3,
+        "total_transactions": 54,
+        "pre_checkins_completed": 5,
+        "pre_checkins_eligible": 48,
+        "unpaid_stays": 5,
+        "is_active": false,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 2,
+        "total_transactions": 44,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 39,
+        "unpaid_stays": 8,
+        "is_active": false,
+        "manual_interventions": 14
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 1,
+        "total_transactions": 50,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 45,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 13
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 1,
+        "total_transactions": 69,
+        "pre_checkins_completed": 4,
+        "pre_checkins_eligible": 62,
+        "unpaid_stays": 17,
+        "is_active": true,
+        "manual_interventions": 24
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 2,
+        "total_transactions": 60,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 54,
+        "unpaid_stays": 7,
+        "is_active": false,
+        "manual_interventions": 22
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_0530",
+    "property_name": "Valley Plaza 530",
+    "country": "United States",
+    "region": "Texas",
+    "property_type": "Motel",
+    "total_rooms": 55,
+    "cohort": "Non_Adopter",
+    "autopay_enabled_date": NaN,
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 1,
+        "total_transactions": 30,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 27,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 13
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 0,
+        "total_transactions": 43,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 38,
+        "unpaid_stays": 11,
+        "is_active": true,
+        "manual_interventions": 16
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 2,
+        "total_transactions": 42,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 37,
+        "unpaid_stays": 10,
+        "is_active": false,
+        "manual_interventions": 18
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 0,
+        "total_transactions": 24,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 21,
+        "unpaid_stays": 3,
+        "is_active": false,
+        "manual_interventions": 7
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 0,
+        "total_transactions": 27,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 24,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 0,
+        "total_transactions": 29,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 26,
+        "unpaid_stays": 11,
+        "is_active": false,
+        "manual_interventions": 17
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 1,
+        "total_transactions": 25,
+        "pre_checkins_completed": 0,
+        "pre_checkins_eligible": 22,
+        "unpaid_stays": 6,
+        "is_active": false,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 1,
+        "total_transactions": 27,
+        "pre_checkins_completed": 1,
+        "pre_checkins_eligible": 24,
+        "unpaid_stays": 4,
+        "is_active": false,
+        "manual_interventions": 17
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 1,
+        "total_transactions": 34,
+        "pre_checkins_completed": 3,
+        "pre_checkins_eligible": 30,
+        "unpaid_stays": 8,
+        "is_active": false,
+        "manual_interventions": 14
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 1,
+        "total_transactions": 23,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 20,
+        "unpaid_stays": 8,
+        "is_active": false,
+        "manual_interventions": 12
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 0,
+        "total_transactions": 35,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 31,
+        "unpaid_stays": 10,
+        "is_active": false,
+        "manual_interventions": 6
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 3,
+        "total_transactions": 42,
+        "pre_checkins_completed": 2,
+        "pre_checkins_eligible": 37,
+        "unpaid_stays": 14,
+        "is_active": false,
+        "manual_interventions": 16
+      }
+    ]
+  },
+  {
+    "property_id": "PROP_1720",
+    "property_name": "Royal Lodge 1720",
+    "country": "Australia",
+    "region": "NT",
+    "property_type": "Boutique",
+    "total_rooms": 12,
+    "cohort": "Adopter",
+    "autopay_enabled_date": "2024-06-28",
+    "monthly": [
+      {
+        "month": "2025-03",
+        "sm_pay_transactions": 5,
+        "total_transactions": 20,
+        "pre_checkins_completed": 17,
+        "pre_checkins_eligible": 18,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-04",
+        "sm_pay_transactions": 3,
+        "total_transactions": 16,
+        "pre_checkins_completed": 14,
+        "pre_checkins_eligible": 14,
+        "unpaid_stays": 1,
+        "is_active": false,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-05",
+        "sm_pay_transactions": 2,
+        "total_transactions": 13,
+        "pre_checkins_completed": 10,
+        "pre_checkins_eligible": 11,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-06",
+        "sm_pay_transactions": 7,
+        "total_transactions": 13,
+        "pre_checkins_completed": 11,
+        "pre_checkins_eligible": 11,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-07",
+        "sm_pay_transactions": 5,
+        "total_transactions": 14,
+        "pre_checkins_completed": 12,
+        "pre_checkins_eligible": 12,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-08",
+        "sm_pay_transactions": 6,
+        "total_transactions": 16,
+        "pre_checkins_completed": 11,
+        "pre_checkins_eligible": 14,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-09",
+        "sm_pay_transactions": 1,
+        "total_transactions": 10,
+        "pre_checkins_completed": 9,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2025-10",
+        "sm_pay_transactions": 5,
+        "total_transactions": 11,
+        "pre_checkins_completed": 8,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2025-11",
+        "sm_pay_transactions": 2,
+        "total_transactions": 13,
+        "pre_checkins_completed": 6,
+        "pre_checkins_eligible": 11,
+        "unpaid_stays": 2,
+        "is_active": true,
+        "manual_interventions": 2
+      },
+      {
+        "month": "2025-12",
+        "sm_pay_transactions": 0,
+        "total_transactions": 9,
+        "pre_checkins_completed": 7,
+        "pre_checkins_eligible": 8,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 1
+      },
+      {
+        "month": "2026-01",
+        "sm_pay_transactions": 0,
+        "total_transactions": 17,
+        "pre_checkins_completed": 11,
+        "pre_checkins_eligible": 15,
+        "unpaid_stays": 0,
+        "is_active": true,
+        "manual_interventions": 0
+      },
+      {
+        "month": "2026-02",
+        "sm_pay_transactions": 2,
+        "total_transactions": 10,
+        "pre_checkins_completed": 9,
+        "pre_checkins_eligible": 9,
+        "unpaid_stays": 0,
+        "is_active": false,
+        "manual_interventions": 0
+      }
+    ]
+  }
+]

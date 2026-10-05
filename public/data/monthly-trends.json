@@ -1,0 +1,362 @@
+[
+  {
+    "month": "2025-03",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 18.5,
+    "pre_checkin_coverage_rate": 73.8,
+    "active_rate": 57.3,
+    "unpaid_stay_rate": 3.2,
+    "manual_intervention_rate": 5.0
+  },
+  {
+    "month": "2025-03",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.4,
+    "pre_checkin_coverage_rate": 15.5,
+    "active_rate": 21.9,
+    "unpaid_stay_rate": 12.7,
+    "manual_intervention_rate": 25.3
+  },
+  {
+    "month": "2025-03",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 2.9,
+    "pre_checkin_coverage_rate": 8.1,
+    "active_rate": 17.1,
+    "unpaid_stay_rate": 18.5,
+    "manual_intervention_rate": 35.2
+  },
+  {
+    "month": "2025-04",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 18.1,
+    "pre_checkin_coverage_rate": 73.9,
+    "active_rate": 57.3,
+    "unpaid_stay_rate": 3.0,
+    "manual_intervention_rate": 5.2
+  },
+  {
+    "month": "2025-04",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.6,
+    "pre_checkin_coverage_rate": 16.0,
+    "active_rate": 23.9,
+    "unpaid_stay_rate": 12.1,
+    "manual_intervention_rate": 25.9
+  },
+  {
+    "month": "2025-04",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.1,
+    "pre_checkin_coverage_rate": 8.7,
+    "active_rate": 13.8,
+    "unpaid_stay_rate": 18.2,
+    "manual_intervention_rate": 36.3
+  },
+  {
+    "month": "2025-05",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 18.5,
+    "pre_checkin_coverage_rate": 73.9,
+    "active_rate": 55.2,
+    "unpaid_stay_rate": 3.5,
+    "manual_intervention_rate": 5.2
+  },
+  {
+    "month": "2025-05",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.2,
+    "pre_checkin_coverage_rate": 15.3,
+    "active_rate": 23.3,
+    "unpaid_stay_rate": 12.5,
+    "manual_intervention_rate": 26.2
+  },
+  {
+    "month": "2025-05",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.2,
+    "pre_checkin_coverage_rate": 8.6,
+    "active_rate": 12.6,
+    "unpaid_stay_rate": 18.8,
+    "manual_intervention_rate": 35.9
+  },
+  {
+    "month": "2025-06",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 18.3,
+    "pre_checkin_coverage_rate": 73.7,
+    "active_rate": 56.7,
+    "unpaid_stay_rate": 3.2,
+    "manual_intervention_rate": 5.8
+  },
+  {
+    "month": "2025-06",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.6,
+    "pre_checkin_coverage_rate": 15.0,
+    "active_rate": 19.2,
+    "unpaid_stay_rate": 13.0,
+    "manual_intervention_rate": 26.2
+  },
+  {
+    "month": "2025-06",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.2,
+    "pre_checkin_coverage_rate": 8.2,
+    "active_rate": 10.8,
+    "unpaid_stay_rate": 18.9,
+    "manual_intervention_rate": 35.5
+  },
+  {
+    "month": "2025-07",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 18.4,
+    "pre_checkin_coverage_rate": 74.7,
+    "active_rate": 52.9,
+    "unpaid_stay_rate": 3.3,
+    "manual_intervention_rate": 5.1
+  },
+  {
+    "month": "2025-07",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.1,
+    "pre_checkin_coverage_rate": 15.4,
+    "active_rate": 16.3,
+    "unpaid_stay_rate": 12.4,
+    "manual_intervention_rate": 25.8
+  },
+  {
+    "month": "2025-07",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.1,
+    "pre_checkin_coverage_rate": 8.1,
+    "active_rate": 11.6,
+    "unpaid_stay_rate": 19.5,
+    "manual_intervention_rate": 35.9
+  },
+  {
+    "month": "2025-08",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 17.7,
+    "pre_checkin_coverage_rate": 74.4,
+    "active_rate": 55.4,
+    "unpaid_stay_rate": 3.4,
+    "manual_intervention_rate": 4.9
+  },
+  {
+    "month": "2025-08",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.2,
+    "pre_checkin_coverage_rate": 16.0,
+    "active_rate": 15.8,
+    "unpaid_stay_rate": 12.2,
+    "manual_intervention_rate": 26.3
+  },
+  {
+    "month": "2025-08",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.0,
+    "pre_checkin_coverage_rate": 8.4,
+    "active_rate": 8.3,
+    "unpaid_stay_rate": 18.6,
+    "manual_intervention_rate": 35.2
+  },
+  {
+    "month": "2025-09",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 18.3,
+    "pre_checkin_coverage_rate": 76.0,
+    "active_rate": 50.2,
+    "unpaid_stay_rate": 3.0,
+    "manual_intervention_rate": 5.7
+  },
+  {
+    "month": "2025-09",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.4,
+    "pre_checkin_coverage_rate": 15.5,
+    "active_rate": 17.8,
+    "unpaid_stay_rate": 13.1,
+    "manual_intervention_rate": 24.7
+  },
+  {
+    "month": "2025-09",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.0,
+    "pre_checkin_coverage_rate": 8.3,
+    "active_rate": 8.6,
+    "unpaid_stay_rate": 18.9,
+    "manual_intervention_rate": 36.3
+  },
+  {
+    "month": "2025-10",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 18.0,
+    "pre_checkin_coverage_rate": 75.1,
+    "active_rate": 54.4,
+    "unpaid_stay_rate": 3.3,
+    "manual_intervention_rate": 5.0
+  },
+  {
+    "month": "2025-10",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.3,
+    "pre_checkin_coverage_rate": 15.5,
+    "active_rate": 13.6,
+    "unpaid_stay_rate": 12.4,
+    "manual_intervention_rate": 25.9
+  },
+  {
+    "month": "2025-10",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.2,
+    "pre_checkin_coverage_rate": 8.1,
+    "active_rate": 7.0,
+    "unpaid_stay_rate": 19.0,
+    "manual_intervention_rate": 36.1
+  },
+  {
+    "month": "2025-11",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 18.2,
+    "pre_checkin_coverage_rate": 73.8,
+    "active_rate": 51.0,
+    "unpaid_stay_rate": 3.0,
+    "manual_intervention_rate": 5.3
+  },
+  {
+    "month": "2025-11",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.2,
+    "pre_checkin_coverage_rate": 16.1,
+    "active_rate": 14.4,
+    "unpaid_stay_rate": 12.6,
+    "manual_intervention_rate": 25.6
+  },
+  {
+    "month": "2025-11",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.2,
+    "pre_checkin_coverage_rate": 8.0,
+    "active_rate": 7.1,
+    "unpaid_stay_rate": 18.6,
+    "manual_intervention_rate": 35.7
+  },
+  {
+    "month": "2025-12",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 17.7,
+    "pre_checkin_coverage_rate": 74.5,
+    "active_rate": 48.1,
+    "unpaid_stay_rate": 3.2,
+    "manual_intervention_rate": 5.3
+  },
+  {
+    "month": "2025-12",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.6,
+    "pre_checkin_coverage_rate": 15.9,
+    "active_rate": 12.2,
+    "unpaid_stay_rate": 13.1,
+    "manual_intervention_rate": 26.4
+  },
+  {
+    "month": "2025-12",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.3,
+    "pre_checkin_coverage_rate": 8.2,
+    "active_rate": 4.4,
+    "unpaid_stay_rate": 18.9,
+    "manual_intervention_rate": 35.5
+  },
+  {
+    "month": "2026-01",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 18.2,
+    "pre_checkin_coverage_rate": 73.5,
+    "active_rate": 48.5,
+    "unpaid_stay_rate": 3.2,
+    "manual_intervention_rate": 5.2
+  },
+  {
+    "month": "2026-01",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.1,
+    "pre_checkin_coverage_rate": 15.3,
+    "active_rate": 11.9,
+    "unpaid_stay_rate": 13.0,
+    "manual_intervention_rate": 26.0
+  },
+  {
+    "month": "2026-01",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.2,
+    "pre_checkin_coverage_rate": 8.2,
+    "active_rate": 3.8,
+    "unpaid_stay_rate": 19.4,
+    "manual_intervention_rate": 36.0
+  },
+  {
+    "month": "2026-02",
+    "cohort": "Adopter",
+    "property_count": 480,
+    "sm_pay_usage_rate": 17.9,
+    "pre_checkin_coverage_rate": 74.9,
+    "active_rate": 48.3,
+    "unpaid_stay_rate": 3.1,
+    "manual_intervention_rate": 5.0
+  },
+  {
+    "month": "2026-02",
+    "cohort": "Enabled_Inactive",
+    "property_count": 589,
+    "sm_pay_usage_rate": 6.3,
+    "pre_checkin_coverage_rate": 15.5,
+    "active_rate": 11.4,
+    "unpaid_stay_rate": 12.6,
+    "manual_intervention_rate": 25.4
+  },
+  {
+    "month": "2026-02",
+    "cohort": "Non_Adopter",
+    "property_count": 731,
+    "sm_pay_usage_rate": 3.2,
+    "pre_checkin_coverage_rate": 8.8,
+    "active_rate": 4.1,
+    "unpaid_stay_rate": 18.8,
+    "manual_intervention_rate": 35.9
+  }
+]

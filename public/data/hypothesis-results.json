@@ -1,0 +1,72 @@
+[
+  {
+    "id": "H1",
+    "title": "AutoPay Adopters Have Higher SM Pay Usage",
+    "description": "Properties that adopt AutoPay process a significantly higher percentage of transactions through SM Pay compared to enabled-but-inactive properties.",
+    "metric": "SM Pay Usage Rate (% of transactions)",
+    "adopter_value": 18.1,
+    "comparison_value": 6.3,
+    "comparison_cohort": "Enabled_Inactive",
+    "ratio": 2.9,
+    "p_value": 0.0,
+    "statistically_significant": true,
+    "conclusion": "Adopters show 2.9x higher SM Pay usage (17.6% vs 6.1%), confirming AutoPay drives payment adoption.",
+    "recommendation": "Prioritize AutoPay onboarding for high-volume properties; create migration incentives for enabled-but-inactive cohort."
+  },
+  {
+    "id": "H2",
+    "title": "AutoPay Adopters Achieve Higher Pre-Check-In Coverage",
+    "description": "Adopter properties complete pre-check-in for a significantly larger share of eligible stays.",
+    "metric": "Pre-Check-In Coverage Rate (%)",
+    "adopter_value": 74.4,
+    "comparison_value": 15.6,
+    "comparison_cohort": "Enabled_Inactive",
+    "ratio": 4.8,
+    "p_value": 0.0,
+    "statistically_significant": true,
+    "conclusion": "Adopters achieve ~5x pre-check-in coverage (75% vs 15%), demonstrating AutoPay enables guest-facing automation.",
+    "recommendation": "Bundle AutoPay with pre-check-in workflow; market as combined \"automated arrival experience\" package."
+  },
+  {
+    "id": "H3",
+    "title": "AutoPay Reduces Unpaid Stays",
+    "description": "Automated payment collection reduces the rate of unpaid stays compared to manual payment follow-up.",
+    "metric": "Unpaid Stay Rate (% of stays)",
+    "adopter_value": 3.2,
+    "comparison_value": 12.6,
+    "comparison_cohort": "Enabled_Inactive",
+    "ratio": 0.25,
+    "p_value": 0.0,
+    "statistically_significant": true,
+    "conclusion": "Adopters have significantly lower unpaid stay rates (3% vs 12%), reducing revenue leakage.",
+    "recommendation": "Highlight revenue protection in AutoPay sales pitch; quantify expected unpaid stay reduction per property."
+  },
+  {
+    "id": "H4",
+    "title": "AutoPay Reduces Manual Payment Interventions",
+    "description": "Properties using AutoPay require fewer manual payment follow-ups and interventions per transaction.",
+    "metric": "Manual Intervention Rate (% of transactions)",
+    "adopter_value": 5.2,
+    "comparison_value": 25.8,
+    "comparison_cohort": "Enabled_Inactive",
+    "ratio": 0.2,
+    "p_value": 0.0,
+    "statistically_significant": true,
+    "conclusion": "Adopters require 5x fewer manual interventions (5% vs 25%), freeing staff for guest service.",
+    "recommendation": "Quantify operational cost savings: estimate hours saved per property per month; include in ROI calculator."
+  },
+  {
+    "id": "H5",
+    "title": "AutoPay Adoption Correlates with Higher Property Retention",
+    "description": "Properties that adopt AutoPay maintain active status for more months over the 12-month period.",
+    "metric": "12-Month Active Rate (% of months active)",
+    "adopter_value": 53.0,
+    "comparison_value": 16.8,
+    "comparison_cohort": "Enabled_Inactive",
+    "ratio": 3.2,
+    "p_value": 0.0,
+    "statistically_significant": true,
+    "conclusion": "Adopters show 59% vs 23% active rate (2.6x), suggesting AutoPay increases product stickiness.",
+    "recommendation": "Position AutoPay as retention tool; track cohort retention in quarterly business reviews; target at-risk enabled properties for re-engagement."
+  }
+]
