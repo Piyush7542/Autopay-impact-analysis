@@ -12,7 +12,7 @@ import type { CohortSummary } from '@/types';
 
 export function PaymentUsage() {
   const { filters, hasActiveFilters, resetFilters } = useFilters();
-  const { cohortSummary, monthlyTrends, filteredTrends, loading, error } = useCohortData(filters);
+  const { cohortSummary, monthlyTrends, filteredTrends, filteredCohortSummary, loading, error } = useCohortData(filters);
 
   if (loading) {
     return (
@@ -32,9 +32,9 @@ export function PaymentUsage() {
 
   const trendData = filteredTrends.length ? filteredTrends : monthlyTrends;
   
-  const adopter = cohortSummary.find(c => c.cohort === 'Adopter');
-  const enabled = cohortSummary.find(c => c.cohort === 'Enabled_Inactive');
-  const nonAdopter = cohortSummary.find(c => c.cohort === 'Non_Adopter');
+  const adopter = filteredCohortSummary.find(c => c.cohort === 'Adopter');
+  const enabled = filteredCohortSummary.find(c => c.cohort === 'Enabled_Inactive');
+  const nonAdopter = filteredCohortSummary.find(c => c.cohort === 'Non_Adopter');
 
   const smPayRatio = adopter && enabled ? adopter.sm_pay_usage_rate / enabled.sm_pay_usage_rate : 0;
   const smPayRatioNonAdopter = adopter && nonAdopter ? adopter.sm_pay_usage_rate / nonAdopter.sm_pay_usage_rate : 0;
@@ -50,7 +50,7 @@ export function PaymentUsage() {
     };
   });
 
-  const cohortBarData = cohortSummary.map(c => ({
+  const cohortBarData = filteredCohortSummary.map(c => ({
     cohort: COHORT_LABELS[c.cohort],
     'SM Pay Usage': c.sm_pay_usage_rate,
     'Avg Monthly Transactions': c.avg_monthly_transactions,
@@ -139,9 +139,9 @@ export function PaymentUsage() {
           <LineChart
             data={monthlyLineData}
             xKey="month"
-            yKeys={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            labels={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            colors={cohortSummary.map(c => COHORT_COLORS[c.cohort])}
+            yKeys={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            labels={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            colors={filteredCohortSummary.map(c => COHORT_COLORS[c.cohort])}
             formatY={v => formatPercentage(v)}
             height={300}
             showDots

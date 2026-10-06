@@ -62,8 +62,5 @@ export const PROPERTY_TYPES = [
 
 export const DEFAULT_FILTERS = {
   dateRange: { start: '2025-03', end: '2026-02' },
-  countries: [] as string[],
-  propertyTypes: [] as string[],
   cohorts: [] as Cohort[],
-  roomRange: { min: 0, max: 500 },
 };

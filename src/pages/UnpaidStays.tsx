@@ -12,7 +12,7 @@ import type { CohortSummary } from '@/types';
 
 export function UnpaidStays() {
   const { filters, hasActiveFilters, resetFilters } = useFilters();
-  const { cohortSummary, monthlyTrends, filteredTrends, loading, error } = useCohortData(filters);
+  const { cohortSummary, monthlyTrends, filteredTrends, filteredCohortSummary, loading, error } = useCohortData(filters);
 
   if (loading) {
     return (
@@ -32,9 +32,9 @@ export function UnpaidStays() {
 
   const trendData = filteredTrends.length ? filteredTrends : monthlyTrends;
   
-  const adopter = cohortSummary.find(c => c.cohort === 'Adopter');
-  const enabled = cohortSummary.find(c => c.cohort === 'Enabled_Inactive');
-  const nonAdopter = cohortSummary.find(c => c.cohort === 'Non_Adopter');
+  const adopter = filteredCohortSummary.find(c => c.cohort === 'Adopter');
+  const enabled = filteredCohortSummary.find(c => c.cohort === 'Enabled_Inactive');
+  const nonAdopter = filteredCohortSummary.find(c => c.cohort === 'Non_Adopter');
 
   // Lower is better for unpaid stays, so ratio is inverted
   const unpaidRatio = adopter && enabled ? enabled.unpaid_stay_rate / adopter.unpaid_stay_rate : 0;
@@ -51,7 +51,7 @@ export function UnpaidStays() {
     };
   });
 
-  const cohortBarData = cohortSummary.map(c => ({
+  const cohortBarData = filteredCohortSummary.map(c => ({
     cohort: COHORT_LABELS[c.cohort],
     'Unpaid Stay Rate': c.unpaid_stay_rate,
     'Avg Unpaid Stays/Property': c.avg_unpaid_stays_per_property,
@@ -142,9 +142,9 @@ export function UnpaidStays() {
           <LineChart
             data={monthlyLineData}
             xKey="month"
-            yKeys={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            labels={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            colors={cohortSummary.map(c => COHORT_COLORS[c.cohort])}
+            yKeys={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            labels={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            colors={filteredCohortSummary.map(c => COHORT_COLORS[c.cohort])}
             formatY={v => formatPercentage(v)}
             height={300}
             showDots

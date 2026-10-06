@@ -109,10 +109,7 @@ export interface RecommendationCard {
 
 export interface FilterState {
   dateRange: { start: string; end: string };
-  countries: string[];
-  propertyTypes: string[];
   cohorts: Cohort[];
-  roomRange: { min: number; max: number };
 }
 
 export const COHORT_LABELS: Record<Cohort, string> = {

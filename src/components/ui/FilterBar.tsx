@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Filter, X, ChevronDown } from 'lucide-react';
 import { cn } from '../../utils/cn';
 import type { FilterState, Cohort } from '../../types';
-import { COHORTS, COHORT_LABELS, COHORT_BADGE_CLASSES, COUNTRIES, PROPERTY_TYPES } from '../../utils/constants';
+import { COHORTS, COHORT_LABELS, COHORT_BADGE_CLASSES } from '../../utils/constants';
 
 interface FilterBarProps {
   filters: FilterState;
@@ -37,65 +37,6 @@ export function FilterBar({ filters, onChange, onReset, hasActiveFilters }: Filt
       : [...currentArray, value];
     onChange({ ...filters, [key]: newArray });
   };
-
-  const renderDropdown = (label: string, key: 'countries' | 'propertyTypes' | 'cohorts', options: string[]) => (
-    <div className="relative" ref={dropdownRef}>
-      <button
-        type="button"
-        className={cn(
-          'flex items-center gap-2 px-3 py-2 text-sm border rounded-lg bg-white',
-          filters[key].length > 0
-            ? 'border-primary-300 text-primary-700 bg-primary-50'
-            : 'border-neutral-300 text-neutral-600 hover:border-neutral-400'
-        )}
-        onClick={() => setOpenFilters(openFilters === key ? null : key)}
-        aria-expanded={openFilters === key}
-        aria-haspopup="listbox"
-      >
-        <Filter className="w-4 h-4" />
-        <span>{label}</span>
-        {filters[key].length > 0 && (
-          <span className="text-xs font-medium px-1.5 py-0.5 bg-primary-100 text-primary-700 rounded">
-            {filters[key].length}
-          </span>
-        )}
-        <ChevronDown className={cn('w-4 h-4 transition-transform', openFilters === key && 'rotate-180')} />
-      </button>
-
-      {openFilters === key && (
-        <div className="absolute z-50 mt-1 w-64 bg-white border border-neutral-200 rounded-lg shadow-lg py-1">
-          <div className="px-3 py-2 border-b border-neutral-100 flex items-center justify-between">
-            <span className="text-xs font-medium text-neutral-500 uppercase">Select {label.toLowerCase()}</span>
-            {filters[key].length > 0 && (
-              <button
-                type="button"
-                onClick={() => onChange({ ...filters, [key]: [] })}
-                className="text-xs text-primary-600 hover:text-primary-700"
-              >
-                Clear all
-              </button>
-            )}
-          </div>
-          <div className="max-h-60 overflow-y-auto">
-            {options.map(option => (
-              <label
-                key={option}
-                className="flex items-center px-3 py-2 hover:bg-neutral-50 cursor-pointer"
-              >
-                <input
-                  type="checkbox"
-                  checked={filters[key].includes(option as any)}
-                  onChange={() => handleMultiSelectChange(key, option, filters[key])}
-                  className="w-4 h-4 text-primary-600 border-neutral-300 rounded focus:ring-primary-500"
-                />
-                <span className="ml-2 text-sm text-neutral-700">{option}</span>
-              </label>
-            ))}
-          </div>
-        </div>
-      )}
-    </div>
-  );
 
   const renderCohortDropdown = () => (
     <div className="relative" ref={dropdownRef}>
@@ -183,9 +124,66 @@ export function FilterBar({ filters, onChange, onReset, hasActiveFilters }: Filt
         </div>
 
         <div className="flex items-center gap-2">
-          {renderDropdown('Countries', 'countries', COUNTRIES)}
-          {renderDropdown('Property Types', 'propertyTypes', PROPERTY_TYPES)}
-          {renderCohortDropdown()}
+          <div className="relative" ref={dropdownRef}>
+            <button
+              type="button"
+              className={cn(
+                'flex items-center gap-2 px-3 py-2 text-sm border rounded-lg bg-white',
+                filters.cohorts.length > 0
+                  ? 'border-primary-300 text-primary-700 bg-primary-50'
+                  : 'border-neutral-300 text-neutral-600 hover:border-neutral-400'
+              )}
+              onClick={() => setOpenFilters(openFilters === 'cohorts' ? null : 'cohorts')}
+              aria-expanded={openFilters === 'cohorts'}
+              aria-haspopup="listbox"
+            >
+              <Filter className="w-4 h-4" />
+              <span>Cohorts</span>
+              {filters.cohorts.length > 0 && (
+                <span className="text-xs font-medium px-1.5 py-0.5 bg-primary-100 text-primary-700 rounded">
+                  {filters.cohorts.length}
+                </span>
+              )}
+              <ChevronDown className={cn('w-4 h-4 transition-transform', openFilters === 'cohorts' && 'rotate-180')} />
+            </button>
+
+            {openFilters === 'cohorts' && (
+              <div className="absolute z-50 mt-1 w-56 bg-white border border-neutral-200 rounded-lg shadow-lg py-1">
+                <div className="px-3 py-2 border-b border-neutral-100 flex items-center justify-between">
+                  <span className="text-xs font-medium text-neutral-500 uppercase">Select cohorts</span>
+                  {filters.cohorts.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={() => onChange({ ...filters, cohorts: [] })}
+                      className="text-xs text-primary-600 hover:text-primary-700"
+                    >
+                      Clear all
+                    </button>
+                  )}
+                </div>
+                <div className="max-h-60 overflow-y-auto">
+                  {COHORT_OPTIONS.map(option => (
+                    <label
+                      key={option.value}
+                      className="flex items-center px-3 py-2 hover:bg-neutral-50 cursor-pointer"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={filters.cohorts.includes(option.value)}
+                        onChange={() => handleMultiSelectChange('cohorts', option.value, filters.cohorts)}
+                        className="w-4 h-4 text-primary-600 border-neutral-300 rounded focus:ring-primary-500"
+                      />
+                      <span className="ml-2 text-sm text-neutral-700 flex items-center gap-2">
+                        <span className={`badge ${COHORT_BADGE_CLASSES[option.value as Cohort]}`}>
+                          {option.label}
+                        </span>
+                      </span>
+                    </label>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
 

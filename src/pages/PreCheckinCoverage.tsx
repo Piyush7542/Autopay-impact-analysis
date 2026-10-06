@@ -12,7 +12,7 @@ import type { CohortSummary } from '@/types';
 
 export function PreCheckinCoverage() {
   const { filters, hasActiveFilters, resetFilters } = useFilters();
-  const { cohortSummary, monthlyTrends, filteredTrends, loading, error } = useCohortData(filters);
+  const { cohortSummary, monthlyTrends, filteredTrends, filteredCohortSummary, loading, error } = useCohortData(filters);
 
   if (loading) {
     return (
@@ -32,9 +32,9 @@ export function PreCheckinCoverage() {
 
   const trendData = filteredTrends.length ? filteredTrends : monthlyTrends;
   
-  const adopter = cohortSummary.find(c => c.cohort === 'Adopter');
-  const enabled = cohortSummary.find(c => c.cohort === 'Enabled_Inactive');
-  const nonAdopter = cohortSummary.find(c => c.cohort === 'Non_Adopter');
+  const adopter = filteredCohortSummary.find(c => c.cohort === 'Adopter');
+  const enabled = filteredCohortSummary.find(c => c.cohort === 'Enabled_Inactive');
+  const nonAdopter = filteredCohortSummary.find(c => c.cohort === 'Non_Adopter');
 
   const preCheckinRatio = adopter && enabled ? adopter.pre_checkin_coverage_rate / enabled.pre_checkin_coverage_rate : 0;
   const preCheckinRatioNonAdopter = adopter && nonAdopter ? adopter.pre_checkin_coverage_rate / nonAdopter.pre_checkin_coverage_rate : 0;
@@ -50,7 +50,7 @@ export function PreCheckinCoverage() {
     };
   });
 
-  const cohortBarData = cohortSummary.map(c => ({
+  const cohortBarData = filteredCohortSummary.map(c => ({
     cohort: COHORT_LABELS[c.cohort],
     'Pre-Check-in Coverage': c.pre_checkin_coverage_rate,
     'Avg Pre-Check-ins/Property': c.avg_pre_checkins_per_property,
@@ -139,9 +139,9 @@ export function PreCheckinCoverage() {
           <LineChart
             data={monthlyLineData}
             xKey="month"
-            yKeys={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            labels={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            colors={cohortSummary.map(c => COHORT_COLORS[c.cohort])}
+            yKeys={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            labels={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            colors={filteredCohortSummary.map(c => COHORT_COLORS[c.cohort])}
             formatY={v => formatPercentage(v)}
             height={300}
             showDots

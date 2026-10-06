@@ -1,4 +1,4 @@
-import { Users, Globe, Building, Filter, X } from 'lucide-react';
+import { Users, Building, Filter, X } from 'lucide-react';
 import { useFilters } from '@/hooks/useFilters';
 import { FilterBar } from '@/components/ui/FilterBar';
 import { CohortComparison } from '@/components/dashboard/CohortComparison';
@@ -12,7 +12,7 @@ import type { CohortSummary } from '@/types';
 
 export function CohortAnalysis() {
   const { filters, hasActiveFilters, resetFilters } = useFilters();
-  const { cohortSummary, filteredTrends, monthlyTrends, loading, error } = useCohortData(filters);
+  const { cohortSummary, filteredTrends, monthlyTrends, filteredCohortSummary, loading, error } = useCohortData(filters);
   const { properties: sampleProperties, loading: sampleLoading } = useSamplePropertyData();
 
   if (loading) {
@@ -32,7 +32,7 @@ export function CohortAnalysis() {
   }
 
   const trendData = filteredTrends.length ? filteredTrends : monthlyTrends;
-  const totalProperties = cohortSummary.reduce((sum, c) => sum + c.property_count, 0);
+  const totalProperties = filteredCohortSummary.reduce((sum, c) => sum + c.property_count, 0);
 
   // Country distribution
   const countryData = COUNTRIES.map(country => {
@@ -104,7 +104,7 @@ export function CohortAnalysis() {
             <div>
               <p className="text-sm text-neutral-500">Countries</p>
               <p className="text-2xl font-bold text-neutral-900">
-                {new Set(cohortSummary.flatMap(c => c.countries)).size}
+                {new Set(filteredCohortSummary.flatMap(c => c.countries)).size}
               </p>
             </div>
           </div>
@@ -128,7 +128,7 @@ export function CohortAnalysis() {
           <h2 className="text-lg font-semibold text-neutral-900">Cohort Profiles</h2>
         </div>
         <div className="card-body">
-          <CohortComparison data={cohortSummary} />
+          <CohortComparison data={filteredCohortSummary} />
         </div>
       </div>
 
@@ -140,12 +140,12 @@ export function CohortAnalysis() {
           </div>
           <div className="card-body">
             <DonutChart
-              data={cohortSummary.map(c => ({
+              data={filteredCohortSummary.map(c => ({
                 name: COHORT_LABELS[c.cohort],
                 value: c.property_count,
               }))}
               height={280}
-              colors={cohortSummary.map(c => COHORT_COLORS[c.cohort])}
+              colors={filteredCohortSummary.map(c => COHORT_COLORS[c.cohort])}
               label="Properties"
               total={totalProperties}
             />
@@ -158,7 +158,10 @@ export function CohortAnalysis() {
           </div>
           <div className="card-body">
             <BarChart
-              data={cohortBarData}
+              data={filteredCohortSummary.map(c => ({
+                cohort: COHORT_LABELS[c.cohort],
+                'Avg Rooms': c.avg_rooms,
+              }))}
               xKey="cohort"
               yKeys={['Avg Rooms']}
               labels={['Avg Rooms']}
@@ -178,9 +181,9 @@ export function CohortAnalysis() {
           <BarChart
             data={monthlyCohortData}
             xKey="month"
-            yKeys={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            labels={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            colors={cohortSummary.map(c => COHORT_COLORS[c.cohort])}
+            yKeys={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            labels={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            colors={filteredCohortSummary.map(c => COHORT_COLORS[c.cohort])}
             height={300}
           />
         </div>

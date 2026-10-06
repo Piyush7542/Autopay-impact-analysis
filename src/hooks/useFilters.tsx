@@ -17,13 +17,9 @@ export function FilterProvider({ children }: { children: ReactNode }) {
   const resetFilters = () => setFilters(DEFAULT_FILTERS);
 
   const hasActiveFilters = 
-    filters.countries.length > 0 ||
-    filters.propertyTypes.length > 0 ||
     filters.cohorts.length > 0 ||
     filters.dateRange.start !== DEFAULT_FILTERS.dateRange.start ||
-    filters.dateRange.end !== DEFAULT_FILTERS.dateRange.end ||
-    filters.roomRange.min !== DEFAULT_FILTERS.roomRange.min ||
-    filters.roomRange.max !== DEFAULT_FILTERS.roomRange.max;
+    filters.dateRange.end !== DEFAULT_FILTERS.dateRange.end;
 
   return (
     <FilterContext.Provider value={{ filters, setFilters, resetFilters, hasActiveFilters }}>

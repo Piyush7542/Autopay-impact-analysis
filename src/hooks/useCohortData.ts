@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import type { CohortSummary, MonthlyTrend, FilterState, Cohort } from '../types';
 
 interface CohortData {
@@ -7,6 +7,7 @@ interface CohortData {
   loading: boolean;
   error: string | null;
   filteredTrends: MonthlyTrend[];
+  filteredCohortSummary: CohortSummary[];
 }
 
 export function useCohortData(filters: FilterState): CohortData {
@@ -45,34 +46,42 @@ export function useCohortData(filters: FilterState): CohortData {
     fetchData();
   }, [fetchData]);
 
+  // Apply filters to cohort summary
+  const filteredCohortSummary = useMemo(() => {
+    return cohortSummary.filter(cohort => {
+      // Filter by cohort
+      if (filters.cohorts.length > 0 && !filters.cohorts.includes(cohort.cohort)) {
+        return false;
+      }
+      return true;
+    });
+  }, [cohortSummary, filters.cohorts]);
+
   // Apply filters to monthly trends
-  const filteredTrends = monthlyTrends.filter(trend => {
-    const monthNum = trend.month;
-    if (monthNum < filters.dateRange.start || monthNum > filters.dateRange.end) {
-      return false;
-    }
-    if (filters.cohorts.length > 0 && !filters.cohorts.includes(trend.cohort as Cohort)) {
-      return false;
-    }
-    return true;
-  });
+  const filteredTrends = useMemo(() => {
+    return monthlyTrends.filter(trend => {
+      const monthNum = trend.month;
+      if (monthNum < filters.dateRange.start || monthNum > filters.dateRange.end) {
+        return false;
+      }
+      if (filters.cohorts.length > 0 && !filters.cohorts.includes(trend.cohort as Cohort)) {
+        return false;
+      }
+      return true;
+    });
+  }, [monthlyTrends, filters.dateRange, filters.cohorts]);
 
   return {
     cohortSummary,
     monthlyTrends,
     filteredTrends,
+    filteredCohortSummary,
     loading,
     error,
   };
 }
 
-interface HypothesisData {
-  hypotheses: any[];
-  loading: boolean;
-  error: string | null;
-}
-
-export function useHypothesisData(): HypothesisData {
+export function useHypothesisData() {
   const [hypotheses, setHypotheses] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -97,13 +106,7 @@ export function useHypothesisData(): HypothesisData {
   return { hypotheses, loading, error };
 }
 
-interface SamplePropertyData {
-  properties: any[];
-  loading: boolean;
-  error: string | null;
-}
-
-export function useSamplePropertyData(): SamplePropertyData {
+export function useSamplePropertyData() {
   const [properties, setProperties] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

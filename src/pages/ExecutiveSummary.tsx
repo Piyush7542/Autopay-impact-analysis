@@ -15,7 +15,7 @@ import type { CohortSummary } from '@/types';
 
 export function ExecutiveSummary() {
   const { filters, hasActiveFilters, resetFilters } = useFilters();
-  const { cohortSummary, monthlyTrends, filteredTrends, loading, error } = useCohortData(filters);
+  const { cohortSummary, monthlyTrends, filteredTrends, filteredCohortSummary, loading, error } = useCohortData(filters);
 
   if (loading) {
     return (
@@ -33,26 +33,26 @@ export function ExecutiveSummary() {
     );
   }
 
-  // Compute key metrics
-  const adopter = cohortSummary.find(c => c.cohort === 'Adopter');
-  const enabled = cohortSummary.find(c => c.cohort === 'Enabled_Inactive');
-  const nonAdopter = cohortSummary.find(c => c.cohort === 'Non_Adopter');
+  // Compute key metrics (use filtered cohort summary for filtered metrics)
+  const filteredAdopter = filteredCohortSummary.find(c => c.cohort === 'Adopter');
+  const filteredEnabled = filteredCohortSummary.find(c => c.cohort === 'Enabled_Inactive');
+  const filteredNonAdopter = filteredCohortSummary.find(c => c.cohort === 'Non_Adopter');
 
-  const totalProperties = cohortSummary.reduce((sum, c) => sum + c.property_count, 0);
-  const avgSmPayUsage = cohortSummary.reduce((sum, c) => sum + c.sm_pay_usage_rate * c.property_count, 0) / totalProperties;
-  const avgActiveRate = cohortSummary.reduce((sum, c) => sum + c.active_rate * c.property_count, 0) / totalProperties;
-  const avgPreCheckin = cohortSummary.reduce((sum, c) => sum + c.pre_checkin_coverage_rate * c.property_count, 0) / totalProperties;
+  const totalProperties = filteredCohortSummary.reduce((sum, c) => sum + c.property_count, 0);
+  const avgSmPayUsage = filteredCohortSummary.reduce((sum, c) => sum + c.sm_pay_usage_rate * c.property_count, 0) / totalProperties;
+  const avgActiveRate = filteredCohortSummary.reduce((sum, c) => sum + c.active_rate * c.property_count, 0) / totalProperties;
+  const avgPreCheckin = filteredCohortSummary.reduce((sum, c) => sum + c.pre_checkin_coverage_rate * c.property_count, 0) / totalProperties;
 
   // Key ratios
-  const smPayRatio = adopter && enabled ? adopter.sm_pay_usage_rate / enabled.sm_pay_usage_rate : 0;
-  const preCheckinRatio = adopter && enabled ? adopter.pre_checkin_coverage_rate / enabled.pre_checkin_coverage_rate : 0;
-  const activeRatio = adopter && enabled ? adopter.active_rate / enabled.active_rate : 0;
+  const smPayRatio = filteredAdopter && filteredEnabled ? filteredAdopter.sm_pay_usage_rate / filteredEnabled.sm_pay_usage_rate : 0;
+  const preCheckinRatio = filteredAdopter && filteredEnabled ? filteredAdopter.pre_checkin_coverage_rate / filteredEnabled.pre_checkin_coverage_rate : 0;
+  const activeRatio = filteredAdopter && filteredEnabled ? filteredAdopter.active_rate / filteredEnabled.active_rate : 0;
 
   // Monthly trends for charts
   const trendData = filteredTrends.length ? filteredTrends : monthlyTrends;
   
-  // Prepare cohort comparison data for bar chart
-  const cohortBarData = cohortSummary.map(c => ({
+  // Prepare cohort comparison data for bar chart (use filtered cohort summary)
+  const cohortBarData = filteredCohortSummary.map(c => ({
     cohort: COHORT_LABELS[c.cohort],
     'SM Pay Usage': c.sm_pay_usage_rate,
     'Pre-Check-in Coverage': c.pre_checkin_coverage_rate,
@@ -72,7 +72,7 @@ export function ExecutiveSummary() {
     };
   });
 
-  // Donut chart data - property distribution
+  // Donut chart data - property distribution (show all cohorts for overall distribution)
   const donutData = cohortSummary.map(c => ({
     name: COHORT_LABELS[c.cohort],
     value: c.property_count,
@@ -143,8 +143,8 @@ export function ExecutiveSummary() {
                 <p className="text-3xl font-bold text-primary-600">{formatRatio(smPayRatio)}</p>
                 <p className="text-sm text-neutral-500 mt-1">SM Pay Usage</p>
                 <p className="text-xs text-neutral-400 mt-1">
-                  {adopter && enabled 
-                    ? `${formatPercentage(adopter.sm_pay_usage_rate)} vs ${formatPercentage(enabled.sm_pay_usage_rate)}`
+                  {filteredAdopter && filteredEnabled 
+                    ? `${formatPercentage(filteredAdopter.sm_pay_usage_rate)} vs ${formatPercentage(filteredEnabled.sm_pay_usage_rate)}`
                     : '—'}
                 </p>
               </div>
@@ -152,8 +152,8 @@ export function ExecutiveSummary() {
                 <p className="text-3xl font-bold text-primary-600">{formatRatio(preCheckinRatio)}</p>
                 <p className="text-sm text-neutral-500 mt-1">Pre-Check-in Coverage</p>
                 <p className="text-xs text-neutral-400 mt-1">
-                  {adopter && enabled 
-                    ? `${formatPercentage(adopter.pre_checkin_coverage_rate)} vs ${formatPercentage(enabled.pre_checkin_coverage_rate)}`
+                  {filteredAdopter && filteredEnabled 
+                    ? `${formatPercentage(filteredAdopter.pre_checkin_coverage_rate)} vs ${formatPercentage(filteredEnabled.pre_checkin_coverage_rate)}`
                     : '—'}
                 </p>
               </div>
@@ -161,8 +161,8 @@ export function ExecutiveSummary() {
                 <p className="text-3xl font-bold text-primary-600">{formatRatio(activeRatio)}</p>
                 <p className="text-sm text-neutral-500 mt-1">Active Rate</p>
                 <p className="text-xs text-neutral-400 mt-1">
-                  {adopter && enabled 
-                    ? `${formatPercentage(adopter.active_rate)} vs ${formatPercentage(enabled.active_rate)}`
+                  {filteredAdopter && filteredEnabled 
+                    ? `${formatPercentage(filteredAdopter.active_rate)} vs ${formatPercentage(filteredEnabled.active_rate)}`
                     : '—'}
                 </p>
               </div>
@@ -192,7 +192,7 @@ export function ExecutiveSummary() {
           <h2 className="text-lg font-semibold text-neutral-900">Cohort Comparison</h2>
         </div>
         <div className="card-body">
-          <CohortComparison data={cohortSummary} />
+          <CohortComparison data={filteredCohortSummary} />
         </div>
       </div>
 

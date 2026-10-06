@@ -5,6 +5,7 @@ import { KPICard } from '@/components/dashboard/KPICard';
 import { BarChart } from '@/components/charts/BarChart';
 import { LineChart } from '@/components/charts/LineChart';
 import { InsightCard } from '@/components/dashboard/InsightCard';
+import { RecommendationCard } from '@/components/dashboard/RecommendationCard';
 import { useCohortData } from '@/hooks/useCohortData';
 import { formatNumber, formatPercentage, formatRatio } from '@/utils/formatters';
 import { COHORT_LABELS, COHORT_COLORS, COHORT_BADGE_CLASSES } from '@/utils/constants';
@@ -12,7 +13,7 @@ import type { CohortSummary } from '@/types';
 
 export function RetentionAnalysis() {
   const { filters, hasActiveFilters, resetFilters } = useFilters();
-  const { cohortSummary, monthlyTrends, filteredTrends, loading, error } = useCohortData(filters);
+  const { cohortSummary, monthlyTrends, filteredTrends, filteredCohortSummary, loading, error } = useCohortData(filters);
 
   if (loading) {
     return (
@@ -32,9 +33,9 @@ export function RetentionAnalysis() {
 
   const trendData = filteredTrends.length ? filteredTrends : monthlyTrends;
   
-  const adopter = cohortSummary.find(c => c.cohort === 'Adopter');
-  const enabled = cohortSummary.find(c => c.cohort === 'Enabled_Inactive');
-  const nonAdopter = cohortSummary.find(c => c.cohort === 'Non_Adopter');
+  const adopter = filteredCohortSummary.find(c => c.cohort === 'Adopter');
+  const enabled = filteredCohortSummary.find(c => c.cohort === 'Enabled_Inactive');
+  const nonAdopter = filteredCohortSummary.find(c => c.cohort === 'Non_Adopter');
 
   const retentionRatio = adopter && enabled ? adopter.retention_rate_12m / enabled.retention_rate_12m : 0;
   const retentionRatioNonAdopter = adopter && nonAdopter ? adopter.retention_rate_12m / nonAdopter.retention_rate_12m : 0;
@@ -50,7 +51,7 @@ export function RetentionAnalysis() {
     };
   });
 
-  const cohortBarData = cohortSummary.map(c => ({
+  const cohortBarData = filteredCohortSummary.map(c => ({
     cohort: COHORT_LABELS[c.cohort],
     '12-Month Retention': c.retention_rate_12m,
     'Churn Rate': c.churn_rate,
@@ -164,9 +165,9 @@ export function RetentionAnalysis() {
           <LineChart
             data={monthlyLineData}
             xKey="month"
-            yKeys={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            labels={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            colors={cohortSummary.map(c => COHORT_COLORS[c.cohort])}
+            yKeys={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            labels={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            colors={filteredCohortSummary.map(c => COHORT_COLORS[c.cohort])}
             formatY={v => formatPercentage(v)}
             height={300}
             showDots
@@ -203,6 +204,56 @@ export function RetentionAnalysis() {
               type="risk"
               metric="Churn Rate"
               value={enabled ? formatPercentage(enabled.churn_rate) : '—'}
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="card">
+        <div className="card-header">
+          <h2 className="text-lg font-semibold text-neutral-900">Recommendations</h2>
+        </div>
+        <div className="card-body">
+          <div className="space-y-4">
+            <RecommendationCard
+              title="Prioritize Enabled-Inactive Re-engagement"
+              description="Launch targeted onboarding campaign for the 32% of properties that have AutoPay enabled but aren't using it. Provide dedicated support and incentives for first transaction."
+              priority="high"
+              effort="medium"
+              impact="high"
+              related_hypothesis="H1, H2, H5"
+            />
+            <RecommendationCard
+              title="Bundle AutoPay + Pre-Check-in"
+              description="Market AutoPay and pre-check-in as a combined 'Automated Arrival Experience' package. The 5x coverage difference shows strong synergy between these features."
+              priority="high"
+              effort="low"
+              impact="high"
+              related_hypothesis="H2"
+            />
+            <RecommendationCard
+              title="Quantify Revenue Protection in Sales"
+              description="Equip sales team with ROI calculator showing expected unpaid stay reduction (4x) and manual intervention savings (5x) per property."
+              priority="medium"
+              effort="low"
+              impact="medium"
+              related_hypothesis="H3, H4"
+            />
+            <RecommendationCard
+              title="Track Cohort Retention Quarterly"
+              description="Implement quarterly business review metrics tracking 12-month retention by cohort. Target at-risk enabled properties for proactive outreach."
+              priority="medium"
+              effort="medium"
+              impact="medium"
+              related_hypothesis="H5"
+            />
+            <RecommendationCard
+              title="Non-Adopter Conversion Strategy"
+              description="Develop targeted messaging for non-adopters highlighting peer benchmarks: 'Properties like yours see 2.9x payment adoption and 2.6x better retention with AutoPay.'"
+              priority="medium"
+              effort="medium"
+              impact="high"
+              related_hypothesis="H1, H5"
             />
           </div>
         </div>

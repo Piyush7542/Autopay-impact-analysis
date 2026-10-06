@@ -1,4 +1,4 @@
-import { Activity, TrendingUp, Target, Users, AlertTriangle } from 'lucide-react';
+import { Activity, TrendingUp, Target, Users, AlertTriangle, Clock } from 'lucide-react';
 import { useFilters } from '@/hooks/useFilters';
 import { FilterBar } from '@/components/ui/FilterBar';
 import { KPICard } from '@/components/dashboard/KPICard';
@@ -12,7 +12,7 @@ import type { CohortSummary } from '@/types';
 
 export function ActiveRate() {
   const { filters, hasActiveFilters, resetFilters } = useFilters();
-  const { cohortSummary, monthlyTrends, filteredTrends, loading, error } = useCohortData(filters);
+  const { cohortSummary, monthlyTrends, filteredTrends, filteredCohortSummary, loading, error } = useCohortData(filters);
 
   if (loading) {
     return (
@@ -32,9 +32,9 @@ export function ActiveRate() {
 
   const trendData = filteredTrends.length ? filteredTrends : monthlyTrends;
   
-  const adopter = cohortSummary.find(c => c.cohort === 'Adopter');
-  const enabled = cohortSummary.find(c => c.cohort === 'Enabled_Inactive');
-  const nonAdopter = cohortSummary.find(c => c.cohort === 'Non_Adopter');
+  const adopter = filteredCohortSummary.find(c => c.cohort === 'Adopter');
+  const enabled = filteredCohortSummary.find(c => c.cohort === 'Enabled_Inactive');
+  const nonAdopter = filteredCohortSummary.find(c => c.cohort === 'Non_Adopter');
 
   const activeRatio = adopter && enabled ? adopter.active_rate / enabled.active_rate : 0;
   const activeRatioNonAdopter = adopter && nonAdopter ? adopter.active_rate / nonAdopter.active_rate : 0;
@@ -50,7 +50,7 @@ export function ActiveRate() {
     };
   });
 
-  const cohortBarData = cohortSummary.map(c => ({
+  const cohortBarData = filteredCohortSummary.map(c => ({
     cohort: COHORT_LABELS[c.cohort],
     'Active Rate': c.active_rate,
     'Avg Active Months': c.avg_active_months,
@@ -147,9 +147,9 @@ export function ActiveRate() {
           <LineChart
             data={monthlyLineData}
             xKey="month"
-            yKeys={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            labels={cohortSummary.map(c => COHORT_LABELS[c.cohort])}
-            colors={cohortSummary.map(c => COHORT_COLORS[c.cohort])}
+            yKeys={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            labels={filteredCohortSummary.map(c => COHORT_LABELS[c.cohort])}
+            colors={filteredCohortSummary.map(c => COHORT_COLORS[c.cohort])}
             formatY={v => formatPercentage(v)}
             height={300}
             showDots
